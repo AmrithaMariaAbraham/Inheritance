@@ -6,6 +6,9 @@ public class ChildA extends Parent
 	{
 		sum=a+b;
 		System.out.println("Sum:"+sum);
+		System.out.println("Change");
+		System.out.println("New change");
+		System.out.println("Changing");
 	}
 	public void display2()
 	{
