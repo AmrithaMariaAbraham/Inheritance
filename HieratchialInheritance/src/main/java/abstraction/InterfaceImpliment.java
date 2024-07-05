@@ -1,5 +1,5 @@
 package abstraction;
-public class InterfaceImpliment implements Group,Group1
+public class InterfaceImpliment implements Group,Group1//multiple inheritance
 {
 
 	public static void main(String[] args) 
