@@ -13,28 +13,28 @@ public class ExceptionHandling
 	{
 		try
 		{
-			System.out.println(s.length());
+			System.out.println(s.length());//Null pointer Exception
 	    }
 		catch(NullPointerException e)
 		{
 			try
 			{
-				System.out.println("Nullpointer Exception:"+e);
-				b[6]=3;
+				System.out.println("Nullpointer Exception:"+e);//-->Null pointer Exception execution
+				b[6]=3;//Array value Exception
 			}
 			catch(ArrayIndexOutOfBoundsException ex)
 			{		
 				try 
 				{
-					System.out.println("Index value out of value:"+ex);
+					System.out.println("Index value out of value:"+ex);//-->ArrayIndexOutOfBoundsException Exception
 					div=a/0;
-					System.out.println("Division:"+div);
+					System.out.println("Division:"+div);//Arithmetic Exception
 				}
 				catch(ArithmeticException ex1)
 				{
 					try
 					{
-						System.out.println("Division by zero not possible:" +ex1);
+						System.out.println("Division by zero not possible:" +ex1);//-->Arithmetic Exception execution
 						String path="C://Javatraining//Files//";
 						 File f=new File(path+"File.txt");
 	                       if (f.createNewFile())
@@ -54,7 +54,7 @@ public class ExceptionHandling
 					}
 				catch(FileNotFoundException ex2)
 					{
-					System.out.println("File not found" +ex2);
+					System.out.println("File not found" +ex2);//-->File not found exception
 					}
 				}
 				
