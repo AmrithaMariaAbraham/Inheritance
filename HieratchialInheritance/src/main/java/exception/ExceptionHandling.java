@@ -3,7 +3,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-
 public class ExceptionHandling 
 {
 	int a=5,div;
@@ -26,7 +25,7 @@ public class ExceptionHandling
 			{		
 				try 
 				{
-					System.out.println("Index value out of value:"+ex);//-->ArrayIndexOutOfBoundsException Exception
+					System.out.println("Index value out of value:"+ex);//-->ArrayIndexOutOfBoundsException Execution
 					div=a/0;
 					System.out.println("Division:"+div);//Arithmetic Exception
 				}
@@ -68,4 +67,3 @@ public class ExceptionHandling
 		obj.add();
 	}
 }
-//1 try and multiple catch block program-->arrayindexoutofbound
