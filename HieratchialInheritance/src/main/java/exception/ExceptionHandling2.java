@@ -8,10 +8,10 @@ public void add()
 	div=a/0;
 	System.out.println("div:"+div);
 	}
-	/*catch(ArithmeticException e)
+	catch(ArithmeticException e)
 	{
 		System.out.println(e);
-	}*/
+	}
 	finally
 	{
 		System.out.println("Exception handles successfully");

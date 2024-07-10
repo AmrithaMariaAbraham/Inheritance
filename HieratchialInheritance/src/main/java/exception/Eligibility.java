@@ -9,7 +9,7 @@ public class Eligibility
 		System.out.println(age+" Eligible for voting and having driving license");
 	 else 
 		//System.out.println(age+" Not Eligible");
-		 throw new ArithmeticException(age+ " Not Eligible"); 
+		 throw new ArithmeticException(age+ " Not Eligible"); //object creation
  }
  public static void main(String[] args) 
 	{
