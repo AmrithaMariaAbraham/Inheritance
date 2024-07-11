@@ -1,5 +1,6 @@
 package abstraction;
-public class AbstractB extends AbstractA {
+public class AbstractB extends AbstractA 
+{
 	public static void main(String[] args) 
 	{
 		AbstractB obj=new AbstractB();
