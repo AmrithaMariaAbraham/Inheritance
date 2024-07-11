@@ -20,7 +20,8 @@ public class ListExample
 		{
 			System.out.println(obj1.next());
 		}
-		//Set interface. 
+		
+		//Set is an interface. 
 		//difference between looping and Iterator
 		//Artitecture draw in notebook
 		//hasNext();
