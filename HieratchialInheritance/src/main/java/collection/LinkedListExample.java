@@ -25,7 +25,13 @@ public class LinkedListExample
 		while(obj1.hasNext())
 		{
 			System.out.println(obj1.next());
-			//System.out.println(obj1.remove());
+			System.out.println("Removed values:");
+			System.out.println(obj.remove());
+			System.out.println(obj.remove());
+			System.out.println(obj.remove());
+			System.out.println(obj.remove());
+			System.out.println(obj.remove());
+			System.out.println(obj.remove());
 		}
 		Iterator obj3=obj2.iterator();
 		while(obj3.hasNext())
